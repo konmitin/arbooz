@@ -1,0 +1,74 @@
+{
+  "shtraf": {
+    "title": "Штрафы",
+    "img": {
+      "hover": "img/shtraf.svg",
+      "def": "img/shtraf.svg"
+    },
+    "color": "#FBCE07"
+  },
+  "parking": {
+    "title": "Парковки",
+    "img": {
+      "hover": "img/parking.svg",
+      "def": "img/parking.svg"
+    },
+    "color": "#0079C2"
+  },
+  "edo": {
+    "title": "ЭДО",
+    "img": {
+      "hover": "img/edo.svg",
+      "def": "img/edo.svg"
+    },
+    "color": "#FBCE07"
+  },
+  "washes": {
+    "title": "Мойки",
+    "img": {
+      "hover": "img/washes.svg",
+      "def": "img/washes.svg"
+    },
+    "color": "#5FADE0"
+  },
+  "otsrochka": {
+    "title": "Отсрочка",
+    "img": {
+      "hover": "img/otsrochka.svg",
+      "def": "img/otsrochka.svg"
+    },
+    "color": "#FBCE07"
+  },
+  "telematik": {
+    "title": "Телематика",
+    "img": {
+      "hover": "img/telematik.svg",
+      "def": "img/telematik.svg"
+    },
+    "color": "#FBCE07"
+  },
+  "pprpay": {
+    "title": "PPRPAY",
+    "img": {
+      "hover": "img/pprpay.svg",
+      "def": "img/pprpay.svg"
+    },
+    "color": "#FBCE07"
+  },
+  "sms": {
+    "title": "СМС",
+    "img": {
+      "hover": "img/sms.svg",
+      "def": "img/sms.svg"
+    },
+    "color": "#07DE44"
+  },
+  "shield": {
+    "title": "Страховка",
+    "img": {
+      "hover": "img/shield.svg",
+      "def": "img/shield.svg"
+    },
+    "color": "#FBCE07"
+  }
+}

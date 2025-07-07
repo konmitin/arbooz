@@ -1,0 +1,5 @@
+@import "mixin";
+
+@include font-face("Proxima Nova", "ProximaNova-Regular", 400);
+@include font-face("Proxima Nova", "ProximaNova-Semibold", 500);
+@include font-face("Proxima Nova", "ProximaNova-Bold", 600);

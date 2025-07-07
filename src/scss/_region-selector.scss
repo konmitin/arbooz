@@ -1,0 +1,66 @@
+.region-selector {
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  &__label {
+    cursor: pointer;
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #e0e7e9;
+    border-radius: 4px;
+    min-height: 100px;
+    padding: 21px 41px 32px 25px;
+    color: var(--black-30);
+  }
+
+  &__select {
+    visibility: hidden;
+    display: none;
+  }
+
+  &__select-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+
+    span {
+      color: #636363;
+      font-size: 20px;
+    }
+
+    &_hidden {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 10;
+      background: #fafafa;
+      border: 1px solid #e0e7e9;
+      padding: 21px 25px;
+      width: 100%;
+
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: all 0.3s;
+
+      span {
+        cursor: pointer;
+        font-size: 20px;
+      }
+    }
+    &_hidden.show {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}

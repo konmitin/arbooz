@@ -1,0 +1,28 @@
+.tariff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  color: var(--gray);
+
+  margin-bottom: 32px;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  &__select {
+    display: flex;
+    align-items: center;
+    background: #31cecb;
+    border-radius: 60px;
+    padding: 13px 23px;
+    gap: 7px;
+
+    span {
+      color: var(--white);
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}

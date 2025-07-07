@@ -1,0 +1,129 @@
+.other-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .promo &__title {
+    color: var(--black);
+  }
+
+  &__title {
+    font-size: 20px;
+    color: #636363;
+    margin-bottom: 23px;
+
+    &_center {
+      text-align: center;
+      font-size: 24px;
+    }
+  }
+
+  .promo &__list {
+    gap: 29px;
+    margin-bottom: 27px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 50px;
+    max-width: 597px;
+  }
+}
+
+.other-option {
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  transition: all 0.3s;
+  text-align: center;
+  max-width: 87px;
+  z-index: 2;
+
+  &_big {
+    max-width: 110px;
+  }
+
+  & input {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  &__label {
+    cursor: pointer;
+  }
+  &__label span {
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  &__img-block {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 86px;
+    max-height: 86px;
+    width: 100vh;
+    height: 100vh;
+    background: #f1f1f1;
+    border-radius: 100%;
+    margin-bottom: 9px;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+
+  &__span-block {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 110px;
+    max-height: 110px;
+    width: 100vh;
+    height: 100vh;
+    background: #f1f1f1;
+    border-radius: 100%;
+    margin-bottom: 9px;
+    z-index: -1;
+    transition: all 0.3s;
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+
+  &.active &__span-block ::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33px;
+    height: 33px;
+    background: url("/img/checked.svg") center no-repeat;
+    background-size: contain;
+    border-radius: 100%;
+  }
+
+  &.active &__img-block,
+  &.active &__span-block {
+    background: var(--active-other);
+  }
+
+  &.active &__label span {
+    color: var(--black);
+  }
+}

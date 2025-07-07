@@ -1,0 +1,11 @@
+.submit-button {
+  gap: 8px;
+  width: 100%;
+  padding: 23px 0;
+
+  font-size: 16px;
+  font-weight: 600;
+  &__tariff {
+    font-weight: 600;
+  }
+}

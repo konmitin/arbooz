@@ -1,0 +1,39 @@
+.card {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: url("/img/card-bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 518px;
+  max-height: 326px;
+
+  margin-bottom: 30px;
+}
+
+.card__logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.card__number {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.card__name {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.card__expiry {
+  font-size: 16px;
+  color: white;
+}

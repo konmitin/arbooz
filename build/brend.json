@@ -1,0 +1,80 @@
+{
+  "gas": {
+    "shell": {
+      "title": "Shell",
+      "oil-type": "gaz",
+      "img": {
+        "hover": "img/shell.svg",
+        "def": "img/shell.svg"
+      },
+      "color": "#FBCE07"
+    },
+    "gazprom": {
+      "title": "Газпром",
+      "oil-type": "gaz",
+      "img": {
+        "hover": "img/gazprom.svg",
+        "def": "img/gazprom-gray.svg"
+      },
+      "color": "#FBCE07"
+    },
+    "bashneft": {
+      "title": "Башнефть",
+      "oil-type": "gaz",
+      "img": {
+        "hover": "img/bashneft.svg",
+        "def": "img/bashneft-gray.svg"
+      },
+      "color": "#FBCE07"
+    }
+  },
+  "gasoline": {
+    "rosneft": {
+      "title": "Роснефть",
+      "oil-type": "gazoline",
+      "img": {
+        "hover": "img/rosneft.svg",
+        "def": "img/rosneft-gray.svg"
+      },
+      "color": "#FBCE07"
+    },
+    "tatneft": {
+      "title": "Татнефть",
+      "oil-type": "gazoline",
+      "img": {
+        "hover": "img/tatneft.svg",
+        "def": "img/tatneft-gray.svg"
+      },
+      "color": "#FBCE07"
+    },
+    "lukoil": {
+      "title": "Лукойл",
+      "oil-type": "gazoline",
+      "img": {
+        "hover": "img/lukoil.svg",
+        "def": "img/lukoil-gray.svg"
+      },
+      "color": "#FBCE07"
+    }
+  },
+  "dizel": {
+    "tatneft": {
+      "title": "Татнефть",
+      "oil-type": "dizel",
+      "img": {
+        "hover": "img/tatneft.svg",
+        "def": "img/tatneft-gray.svg"
+      },
+      "color": "#FBCE07"
+    },
+    "lukoil": {
+      "title": "Лукойл",
+      "oil-type": "dizel",
+      "img": {
+        "hover": "img/lukoil.svg",
+        "def": "img/lukoil-gray.svg"
+      },
+      "color": "#FBCE07"
+    }
+  }
+}

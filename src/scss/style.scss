@@ -1,0 +1,73 @@
+@import "reset";
+@import "fonts";
+
+:root {
+  --white: #ffffff;
+  --yellow: #ffdd21;
+  --yellow-40: rgba(255, 222, 33, 0.4);
+  --black: #000000;
+  --black-30: rgba(0, 0, 0, 0.3);
+  --turq: #31cecb;
+  --gray: #6F6F6F;
+  --light-gray: #E0E7E9;
+  --error: #DD1D21;
+}
+
+* {
+  font-family: "Proxima Nova", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+}
+
+.button__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 9px 24px;
+  background-color: var(--yellow);
+  color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0px 14px 24px var(--yellow-40);
+}
+
+.map-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+
+  span {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--gray);
+  }
+}
+
+
+@import "header";
+@import "main";
+@import "calculator-form";
+@import "calculator";
+
+@import "region-selector";
+@import "slider-range";
+@import "fuel-options";
+@import "other-options";
+@import "card";
+@import "tariff";
+@import "economy";
+@import "submit-button";
+@import "result-popup";
+

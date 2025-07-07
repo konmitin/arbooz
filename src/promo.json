@@ -1,0 +1,40 @@
+{
+  "premium": {
+    "shtraf-economy": {
+      "title": "Экономии на&nbsp;штрафах",
+      "discount": 50,
+      "color": "#FBCE07"
+    },
+    "nds-return": {
+      "title": "Возврат НДС",
+      "discount": 20,
+      "color": "#FBCE07"
+    }
+  },
+
+  "favorite": {
+    "nds-return": {
+      "title": "Возврат НДС",
+      "discount": 20,
+      "color": "#FBCE07"
+    },
+    "car-wash-discount": {
+      "title": "Скидка на&nbsp;мойку",
+      "discount": 5,
+      "color": "#FBCE07"
+    }
+  },
+
+  "economy": {
+    "car-wash-discount": {
+      "title": "Скидка на&nbsp;мойку",
+      "discount": 5,
+      "color": "#FBCE07"
+    },
+    "fuel-discount": {
+      "title": "Скидка на&nbsp;топливо",
+      "discount": 2,
+      "color": "#FBCE07"
+    }
+  }
+}

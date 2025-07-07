@@ -1,0 +1,44 @@
+.economy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__title {
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 120px;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+  }
+  &__date {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    gap: 5px;
+  }
+  &__date:not(:last-child) {
+    padding-right: 31px;
+  }
+  &__date:not(:last-child):after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 90%;
+    background: #f1f1f1;
+    right: 0;
+  }
+  &__date-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray);
+    letter-spacing: 5%;
+  }
+  &__date-result {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,47 @@
+.fuel-options {
+  width: 100%;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+}
+
+.fuel-option {
+  flex-grow: 1;
+  flex-shrink: 0;
+  min-width: 197px;
+  cursor: pointer;
+  padding-bottom: 24px;
+  border-bottom: 8px solid var(--light-gray);
+  transition: all 0.3s;
+
+  text-align: center;
+
+  & input {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  & label {
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  &.active,
+  &:hover {
+    border-bottom: 8px solid var(--turq);
+  }
+
+  &.active label,
+  &:hover label {
+    color: var(--black);
+  }
+}
