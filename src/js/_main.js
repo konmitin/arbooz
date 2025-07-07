@@ -94,7 +94,7 @@ $(document).ready(() => {
         if (inputINN.val().length != 12) {
             inputINN.addClass('error');
             inputINN.siblings().addClass("show");
-            inputINN.siblings().text("Ошибка: должно быть 12 цифр  а у вас " + inputINN.val().length);
+            inputINN.siblings().text("Ошибка: должно быть 12 цифр, а у вас " + inputINN.val().length);
             error++;
         }
 
