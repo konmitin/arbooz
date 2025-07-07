@@ -109,6 +109,7 @@ $(document).ready(() => {
         if (error <= 0) {
 
             form.find("button").prop("disabled", true);
+            form.find(".result-popup__success").removeClass("show");
 
             let formString = $(".calculator-form").serialize();
 
@@ -152,10 +153,13 @@ $(document).ready(() => {
                     },
                     (response) => {
 
+                        form.find("button").prop("disabled", false);
+                        form.find(".result-popup__success").addClass("show");
+
 
                     });
 
-                form.find("button").prop("disabled", false);
+                
             });
         }
 

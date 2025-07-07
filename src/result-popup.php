@@ -26,6 +26,9 @@
                 </label>
             </div>
             <button class="result-popup__button submit-button button button__link" type="submit">Заказать тариф «Избранный»</button>
+            <span class="result-popup__success">
+                Спасибо! Успешно отправлено.
+            </span>
         </form>
     </div>
 
