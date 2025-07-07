@@ -6,17 +6,17 @@
         <form class="result-popup__form">
             <label class="result-popup__label">
                 <span class="result-popup__error"></span>
-                <input class="result-popup__input" type="number" name="inn" placeholder="Номер ИНН" required value="214241412412">
+                <input class="result-popup__input" type="number" name="inn" placeholder="Номер ИНН" required value="">
             </label>
 
             <label class="result-popup__label">
                 <span class="result-popup__error"></span>
-                <input class="result-popup__input" type="number" name="phone" placeholder="Телефон для связи" required value="21424141241">
+                <input class="result-popup__input" type="number" name="phone" placeholder="Телефон для связи" required value="">
             </label>
 
             <label class="result-popup__label">
                 <span class="result-popup__error"></span>
-                <input class="result-popup__input" type="email" name="email" placeholder="E-mail для связи" required value="konmitin@gmail.com">
+                <input class="result-popup__input" type="email" name="email" placeholder="E-mail для связи" required value="">
             </label>
 
             <div class="result-popup__checkbox">
